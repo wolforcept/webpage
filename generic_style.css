@@ -1,0 +1,103 @@
+/*@license
+*MyFontsWebfontBuildID2521452,2013-04-04T07:33:27-0400
+*
+*ThefontslistedinthisnoticearesubjecttotheEndUserLicense
+*Agreement(s)enteredintobythewebsiteowner.Allotherpartiesare
+*explicitlyrestrictedfromusingtheLicensedWebfonts(s).
+*
+*YoumayobtainavalidlicenseattheURLsbelow.
+*
+*Webfont:CapitaLightbyHoftype
+*URL:http://www.myfonts.com/fonts/hoftype/capita/light/
+*Copyright:Copyright(c)2013byDieterHofrichter.Allrightsreserved.
+*Licensedpageviews:Unlimited
+*
+*
+*License:http://www.myfonts.com/viewlicense?type=web&buildid=2521452
+*
+*©2013MyFontsInc
+*/
+/*
+@font-face{
+	font-family:'Capita-Light';
+	src:url('webfonts/26796C_0_0.eot');
+	src:url('webfonts/26796C_0_0.eot?#iefix')format('embedded-opentype')
+		,url('webfonts/26796C_0_0.woff')format('woff')
+		,url('webfonts/26796C_0_0.ttf')format('truetype');
+	}
+@charset"utf-8";
+*/
+
+/*
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300&subset=latin,latin-ext);
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope);
+@import url(http://fonts.googleapis.com/css?family=Capriola);
+
+* {
+	font-family: 'Capriola', sans-serif;
+	/*font-family: 'Annie Use Your Telescope', cursive;*/
+	color: #BBF;
+	text-align: center;
+	font-weight:normal;
+	font-size:18px;
+	font-style:normal;
+	text-shadow: 1px 0px 2px #000;
+	/*text-shadow:2px 2px #000030;*/
+}
+
+body {
+	background: #000010;
+}
+
+p {
+	margin: 20px 10px;
+}
+
+a, a :visited, a :active {
+	/*color:#404060;*/
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+	color:#7070A0;
+}
+
+table:hover {
+	cursor: default;
+}
+
+form {
+	margin: 0;
+}
+
+#page {
+	position: fixed;
+	left: 50%;
+	width: 1000;
+	margin-left: -500px;
+	top: 120px;
+}
+
+
+#footer {			
+	padding-top: 4px;
+	padding-bottom: 4px;
+	
+	font-size: 8px;
+	line-height:150%;
+}
+
+.generic_container {
+	margin: 10px auto;
+	width: 600px;
+	
+	background: #101020;
+
+	border:2px solid #202030;
+	border-radius:10px;
+	
+	padding: 10px;
+}

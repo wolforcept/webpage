@@ -1,0 +1,74 @@
+.centered {
+	position: absolute;
+	left: 200px;
+	top: 0px;
+	width: 100px;
+	height: 100px;
+}
+
+.movable {
+	opacity: 0;
+}
+
+.transition {
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	-ms-transition: 0.5s; 
+	transition: 0.5s;
+}
+
+.third {
+	z-index: 1;
+}
+
+#navbar {
+	position: fixed;
+	width: 500px;
+	height: 100px;
+	margin-left: -250px;
+	left: 50%;
+    /*background: #111111;*/
+}
+
+#navbar:hover #center {
+	left: 200px;
+	top: 0px;
+	width: 200px;
+	height: 200px;
+}
+
+#navbar:hover .first {
+	opacity:1;
+	width: 100px;
+	height: 100px;
+	left: 0px;
+}
+
+#navbar:hover .second {
+	opacity:1;
+	width: 100px;
+	height: 100px;
+	left: 100px;
+}
+
+#navbar:hover .third {
+	opacity:1;
+	width: 100px;
+	height: 100px;
+	left: 200px;
+}
+
+#navbar:hover .fourth {
+	opacity:1;
+	width: 100px;
+	height: 100px;
+	left: 300px;
+}
+
+#navbar:hover .fifth {
+	opacity:1;
+	width: 100px;
+	height: 100px;
+	left: 400px;
+}

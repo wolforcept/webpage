@@ -1,0 +1,114 @@
+.transition {
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s; 
+	transition: 1s;
+}
+
+.movable {
+	position: absolute;
+	opacity:0;
+}
+
+.centered {
+	position: absolute;
+	width: 250px;
+	height: 250px;
+	left: 250px;
+	top: 250px;
+}
+
+#page {
+	position: fixed;
+	width: 750px;
+	height: 600px;
+	margin-left: -375px;
+	margin-top: -375px;
+	left: 50%;
+	top: 50%;
+}
+
+#welcome {
+	position: absolute;
+	width: 750px;
+	left: 0;
+	top: 500px;
+	z-index: 1;
+}
+
+#page:hover #welcome {
+	top: 560px;
+	opacity: 0;
+}
+
+#title {
+	text-align: center;
+	font-weight:normal;
+	font-size:28px;
+	font-style:normal;
+	text-decoration: none;
+}
+/*
+#page:hover #title {
+	font-size:10px;
+}*/
+
+#box {
+	position: absolute;
+	width: 250px;
+	left: 250px;
+	top: 600px;
+	z-index: 1;
+}
+
+#centerImage {
+	z-index: 1;
+}
+
+#page:hover #centerImage {
+	left: 275px;
+	top: 275px;
+	width: 200px;
+	height: 200px;
+}
+
+#page:hover #minecraft {
+	opacity:1;
+	width: 200px;
+	height: 200px;
+	left: 275px;
+	top: 50px;
+}
+
+#page:hover #cv {
+	opacity:1;
+	width: 200px;
+	height: 200px;
+	left: 70px;
+	top: 360px;
+}
+
+#page:hover #games {
+	opacity:1;
+	width: 200px;
+	height: 200px;
+	left: 480px;
+	top: 360px;
+}
+
+#page:hover #multimedia {
+	opacity:1;
+	width: 200px;
+	height: 200px;
+	left: 75px;
+	top: 135px;
+}
+
+#page:hover #downloads {
+	opacity:1;
+	width: 200px;
+	height: 200px;
+	left: 475px;
+	top: 135px;
+}

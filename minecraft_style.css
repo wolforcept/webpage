@@ -1,0 +1,42 @@
+#info {
+}
+
+#filters{
+	font-size: 16px;
+}
+
+#helps{
+	font-size: 14px;
+}
+
+.offline {
+	color: #503030;
+}
+
+.online {
+	color: #306030;
+}
+
+.info {
+	width: 100%;
+	
+	text-align: center;
+	font-size: 22px;
+	color: #303050;
+}
+
+.lists {
+	width: 100%;
+	
+	text-align: center;
+	font-size: 18px;
+	color: #303050;
+}
+
+.server_description {
+	font-size: 20px;
+}
+
+.server_address {
+	font-size: 20px;
+}
